@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to User Registration Problem!");
+﻿using UserRegistration;
+class program
+{
+    static void Main(string[] args)
+    {
+        Pattern pattern = new Pattern();
+        Console.WriteLine(pattern.validateFirstName("Raj"));
+    }
+}

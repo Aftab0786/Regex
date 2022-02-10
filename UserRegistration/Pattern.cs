@@ -26,5 +26,13 @@ namespace UserRegistration
 
         }
 
+        public static string REGEX_EMAIL = "^[a-zA-Z0-9.]+@[A-Za-z0-9]+.[A-Za-z]{1,4}$"; //alam41976@gmail.com
+
+        //Method for email address
+        public bool valiadtaeEmail(string email)
+        {
+            return Regex.IsMatch(email, REGEX_EMAIL);
+        }
+
     }
 }

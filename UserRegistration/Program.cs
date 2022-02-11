@@ -10,7 +10,8 @@ class program
         //Console.WriteLine(pattern.validateMobileNumber("91 79719623"));
         //Console.WriteLine(pattern.validatePaswordRule1("a@bcd13"));
         //Console.WriteLine(pattern.validatePaswordRule2("a@123af"));
-        Console.WriteLine(pattern.validatePaswordRule3("5@bcde"));
+        // Console.WriteLine(pattern.validatePaswordRule3("5@bcde"));
+        Console.WriteLine(pattern.validatePaswordRule4("a@2459"));
     }
 
 }

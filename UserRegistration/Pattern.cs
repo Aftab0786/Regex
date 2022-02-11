@@ -42,6 +42,12 @@ namespace UserRegistration
             return Regex.IsMatch(mnumber, REGEX_MOBILENUMBER);
            
         }
+        public static string REGEX_PASSWORDRULE1 = "^([a-zA-Z0-9]{1})*[!@#$%^&*]{1}([a-zA-Z0-9]{6})*$";
+        //method for paasword 
+        public bool validatePaswordRule1(string prule1)
+        {
+            return Regex.IsMatch(prule1, REGEX_PASSWORDRULE1);
+        }
 
 
     }

@@ -49,6 +49,14 @@ namespace UserRegistration
             return Regex.IsMatch(prule1, REGEX_PASSWORDRULE1);
         }
 
+        // method for passwordrule2
+        public static string REGEX_PASSWORDRULE2 = "^([A-Z]{1})*[!@#$%^&*]{1}([a-zA-Z0-9])*$"; //A@123af
+
+        public bool validatePaswordRule2(string prule2)
+        {
+            return Regex.IsMatch(prule2, REGEX_PASSWORDRULE2);
+        }
+
 
     }
 }

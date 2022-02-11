@@ -8,7 +8,8 @@ class program
         //Console.WriteLine(pattern.validateLastName("Roy"));
         //Console.WriteLine(pattern.valiadtaeEmail("alam41976@gmail.com"));     
         //Console.WriteLine(pattern.validateMobileNumber("91 79719623"));
-        Console.WriteLine(pattern.validatePaswordRule1("a@bcd13"));
+        //Console.WriteLine(pattern.validatePaswordRule1("a@bcd13"));
+        Console.WriteLine(pattern.validatePaswordRule2("a@123af"));
     }
 
 }
